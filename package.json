@@ -1,0 +1,23 @@
+{
+  "name": "fed-e-task-01-02",
+  "version": "1.0.0",
+  "description": "拉钩教育学习作业第二部分——函数式编程与 JavaScript 性能优化",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dpuer/fed-e-task-01-02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dpuer/fed-e-task-01-02/issues"
+  },
+  "homepage": "https://github.com/Dpuer/fed-e-task-01-02#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
