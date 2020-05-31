@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>优化节点添加</title>
+</head>
+<body>
+    <script>
+        for (let index = 0; index < 10; index++) {
+            var oP = document.createElement('p')
+            oP.innerHTML = index
+            document.body.appendChild(oP)
+        }
+
+        const fragEle = document.createDocumentFragment()
+        for (let index = 0; index < 10; index++) {
+            var oP = document.createElement('p')
+            oP.innerHTML = index
+            fragEle.appendChild(oP)
+        }
+
+        document.body.appendChild(fragEle)
+    </script>
+</body>
+</html>
