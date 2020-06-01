@@ -30,6 +30,7 @@ console.log(ex3(user))
 //     if (n) {
 //         return parseInt(n)
 //     }
+// }
 let ex4 = (str) => Maybe.of(str).map(parseInt)
 
 console.log(ex4('123'))
